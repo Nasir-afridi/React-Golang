@@ -5,6 +5,7 @@ import Card from "./02-Card"
 import Counter from "./03-Counter"
 import Hide from "./03-hideShow"
 import LiveInput from "./03-liveInput"
+import ConditionalRendering from "./04-ConditionalRendering"
 
 function App() {
 
@@ -26,6 +27,8 @@ function App() {
       <Hide />
       <LiveInput />
       */}
+
+      <ConditionalRendering />
     </>
   )
 }
