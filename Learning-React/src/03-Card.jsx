@@ -5,6 +5,8 @@ const Card = (props) => {
     <>
         <h1>{props.title}</h1>
         <p>{props.description}</p>
+
+        <button onClick={props.onOurClick}>{props.buttonLabel}</button>
     </>
   )
 }
