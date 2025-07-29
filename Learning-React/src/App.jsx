@@ -1,7 +1,10 @@
 import Welcome from "./Welcome"
 import Greeting from "./Greeting"
 import Button from "./02-Button"
-import Card from "./03-Card"
+import Card from "./02-Card"
+import Counter from "./03-Counter"
+
+
 function App() {
 
   return (
@@ -17,6 +20,7 @@ function App() {
       <Card title = "shoes" description = "this is a shoes of nike" buttonLabel = "click here" onOurClick={() => alert("Buying shoes")} />
       <Card title = "pc" description = "this is a pc of windows" buttonLabel = "click here"  onOurClick={() => alert("Buying pc")} /> 
       */}
+      <Counter />
     </>
   )
 }
