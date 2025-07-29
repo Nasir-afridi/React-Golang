@@ -8,6 +8,7 @@ import LiveInput from "./03-liveInput"
 import ConditionalRendering from "./04-ConditionalRendering"
 import RenderingList from "./04-RenderingList"
 import ControlInputSubmit from "./04-ControlInputSubmit"
+import MultipleControlInput from "./04-MultipleControlInput"
 
 function App() {
 
@@ -33,6 +34,7 @@ function App() {
       <ConditionalRendering />
       <RenderingList />
       <ControlInputSubmit />
+      <MultipleControlInput />
     </>
   )
 }
