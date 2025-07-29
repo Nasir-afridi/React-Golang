@@ -29,12 +29,14 @@ function App() {
       <Counter />
       <Hide />
       <LiveInput />
-      */}
+      
 
+      day-4
       <ConditionalRendering />
       <RenderingList />
       <ControlInputSubmit />
       <MultipleControlInput />
+      */}
     </>
   )
 }
