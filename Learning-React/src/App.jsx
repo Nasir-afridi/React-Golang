@@ -29,6 +29,9 @@ function App() {
       <Card title = "shoes" description = "this is a shoes of nike" buttonLabel = "click here" onOurClick={() => alert("Buying shoes")} />
       <Card title = "pc" description = "this is a pc of windows" buttonLabel = "click here"  onOurClick={() => alert("Buying pc")} /> 
      
+
+
+      
       day-3
       <Counter />
       <Hide />
@@ -40,12 +43,14 @@ function App() {
       <RenderingList />
       <ControlInputSubmit />
       <MultipleControlInput />
-      */}
+      
 
+      day-5
       <ControlInputValidation />
       <PasswordValidation />
       <UsernameValidation />
       <FinalForm />
+      */}
     </>
   )
 }
