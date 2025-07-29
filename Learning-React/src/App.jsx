@@ -9,6 +9,7 @@ import ConditionalRendering from "./04-ConditionalRendering"
 import RenderingList from "./04-RenderingList"
 import ControlInputSubmit from "./04-ControlInputSubmit"
 import MultipleControlInput from "./04-MultipleControlInput"
+import ControlInputValidation from "./05-ControlInputValidation"
 
 function App() {
 
@@ -37,6 +38,8 @@ function App() {
       <ControlInputSubmit />
       <MultipleControlInput />
       */}
+
+      <ControlInputValidation />
     </>
   )
 }
