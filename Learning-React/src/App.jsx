@@ -6,6 +6,7 @@ import Counter from "./03-Counter"
 import Hide from "./03-hideShow"
 import LiveInput from "./03-liveInput"
 import ConditionalRendering from "./04-ConditionalRendering"
+import RenderingList from "./04-RenderingList"
 
 function App() {
 
@@ -29,6 +30,7 @@ function App() {
       */}
 
       <ConditionalRendering />
+      <RenderingList />
     </>
   )
 }
