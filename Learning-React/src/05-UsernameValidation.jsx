@@ -14,7 +14,7 @@ const UsernameValidation = () => {
             return
         }
 
-        alert("User Name is Valid", userName)
+        alert(`User Name is Valid: ${userName}`)
         setUserName('')
     }
   return (
