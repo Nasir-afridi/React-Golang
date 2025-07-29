@@ -6,6 +6,8 @@ function App() {
 
   return (
     <>
+      {/*  
+      week-1 (day1-2)
       <Welcome />
       <Greeting />
       <Button label="Hello this is me" onClick={() => alert("hello this is bootle")}/>
@@ -13,7 +15,8 @@ function App() {
       <Button label="Hello this is pc" onClick={() => alert("hello this is pc")}/>
       <Card title = "Bottle" description = "this is a bottle of silver" buttonLabel = "click here" onOurClick={() => alert("Buying Bottle")} />
       <Card title = "shoes" description = "this is a shoes of nike" buttonLabel = "click here" onOurClick={() => alert("Buying shoes")} />
-      <Card title = "pc" description = "this is a pc of windows" buttonLabel = "click here"  onOurClick={() => alert("Buying pc")} />
+      <Card title = "pc" description = "this is a pc of windows" buttonLabel = "click here"  onOurClick={() => alert("Buying pc")} /> 
+      */}
     </>
   )
 }
