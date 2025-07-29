@@ -3,6 +3,7 @@ import Greeting from "./Greeting"
 import Button from "./02-Button"
 import Card from "./02-Card"
 import Counter from "./03-Counter"
+import Hide from "./03-hideShow"
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <Card title = "pc" description = "this is a pc of windows" buttonLabel = "click here"  onOurClick={() => alert("Buying pc")} /> 
       */}
       <Counter />
+      <Hide />
     </>
   )
 }
