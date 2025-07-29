@@ -4,7 +4,7 @@ import Button from "./02-Button"
 import Card from "./02-Card"
 import Counter from "./03-Counter"
 import Hide from "./03-hideShow"
-
+import LiveInput from "./03-liveInput"
 
 function App() {
 
@@ -20,9 +20,12 @@ function App() {
       <Card title = "Bottle" description = "this is a bottle of silver" buttonLabel = "click here" onOurClick={() => alert("Buying Bottle")} />
       <Card title = "shoes" description = "this is a shoes of nike" buttonLabel = "click here" onOurClick={() => alert("Buying shoes")} />
       <Card title = "pc" description = "this is a pc of windows" buttonLabel = "click here"  onOurClick={() => alert("Buying pc")} /> 
-      */}
+     
+      day-3
       <Counter />
       <Hide />
+      <LiveInput />
+      */}
     </>
   )
 }
