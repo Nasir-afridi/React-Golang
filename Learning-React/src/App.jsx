@@ -7,6 +7,7 @@ import Hide from "./03-hideShow"
 import LiveInput from "./03-liveInput"
 import ConditionalRendering from "./04-ConditionalRendering"
 import RenderingList from "./04-RenderingList"
+import ControlInputSubmit from "./04-ControlInputSubmit"
 
 function App() {
 
@@ -31,6 +32,7 @@ function App() {
 
       <ConditionalRendering />
       <RenderingList />
+      <ControlInputSubmit />
     </>
   )
 }
