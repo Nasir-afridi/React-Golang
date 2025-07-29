@@ -11,6 +11,7 @@ import ControlInputSubmit from "./04-ControlInputSubmit"
 import MultipleControlInput from "./04-MultipleControlInput"
 import ControlInputValidation from "./05-ControlInputValidation"
 import PasswordValidation from "./05-PasswordValidation"
+import UsernameValidation from "./05-UsernameValidation"
 
 function App() {
 
@@ -42,6 +43,7 @@ function App() {
 
       <ControlInputValidation />
       <PasswordValidation />
+      <UsernameValidation />
     </>
   )
 }
