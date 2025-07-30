@@ -15,6 +15,7 @@ import UsernameValidation from "./05-UsernameValidation"
 import FinalForm from "./05-FinalForm"
 import ValidationUsingErrors from "./06-ValidationUsingErrors"
 import LiveValidation from "./06-LiveValidation"
+import SummaryWeekOne from "./07-SummaryWeekOne"
 
 function App() {
 
@@ -57,8 +58,11 @@ function App() {
       day-6
       <ValidationUsingErrors />
       <LiveValidation />
+
+
+      day-7
+      <SummaryWeekOne />
       */}
-      
     </>
   )
 }
