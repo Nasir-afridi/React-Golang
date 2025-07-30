@@ -56,8 +56,9 @@ function App() {
 
       day-6
       <ValidationUsingErrors />
-      */}
       <LiveValidation />
+      */}
+      
     </>
   )
 }
