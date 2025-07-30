@@ -14,6 +14,7 @@ import PasswordValidation from "./05-PasswordValidation"
 import UsernameValidation from "./05-UsernameValidation"
 import FinalForm from "./05-FinalForm"
 import ValidationUsingErrors from "./06-ValidationUsingErrors"
+import LiveValidation from "./06-LiveValidation"
 
 function App() {
 
@@ -52,10 +53,11 @@ function App() {
       <UsernameValidation />
       <FinalForm />
 
-      
+
       day-6
       <ValidationUsingErrors />
       */}
+      <LiveValidation />
     </>
   )
 }
