@@ -13,6 +13,7 @@ import ControlInputValidation from "./05-ControlInputValidation"
 import PasswordValidation from "./05-PasswordValidation"
 import UsernameValidation from "./05-UsernameValidation"
 import FinalForm from "./05-FinalForm"
+import ValidationUsingErrors from "./06-ValidationUsingErrors"
 
 function App() {
 
@@ -31,7 +32,7 @@ function App() {
      
 
 
-      
+
       day-3
       <Counter />
       <Hide />
@@ -50,6 +51,10 @@ function App() {
       <PasswordValidation />
       <UsernameValidation />
       <FinalForm />
+
+      
+      day-6
+      <ValidationUsingErrors />
       */}
     </>
   )
