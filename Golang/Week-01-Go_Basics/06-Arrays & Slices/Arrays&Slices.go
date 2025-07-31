@@ -19,4 +19,10 @@ func main() {
 	//task-1
 	integer := [5]int{1, 3, 4, 5, 6}
 	fmt.Println(integer)
+
+	//task-2
+	ourNames := []string{"Ali", "Ahmad", "sadeeq"}
+	ourNames = append(ourNames, "Nawaz", "mujtaba")
+	fmt.Println(ourNames)
+
 }
