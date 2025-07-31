@@ -29,4 +29,8 @@ func main() {
 	ourName := []string{"Ali", "Ahmad", "sadeeq"}
 	fmt.Println(len(ourName))
 	fmt.Println(cap(ourName))
+
+	//task-4
+	ourname := []string{"Ali", "Ahmad", "sadeeq"}
+	fmt.Println(ourname[2])
 }
