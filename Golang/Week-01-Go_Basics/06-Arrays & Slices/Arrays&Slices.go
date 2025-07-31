@@ -25,4 +25,8 @@ func main() {
 	ourNames = append(ourNames, "Nawaz", "mujtaba")
 	fmt.Println(ourNames)
 
+	//task-3
+	ourName := []string{"Ali", "Ahmad", "sadeeq"}
+	fmt.Println(len(ourName))
+	fmt.Println(cap(ourName))
 }
