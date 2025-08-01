@@ -20,4 +20,12 @@ func main() {
 
 	//Task-3
 	fmt.Println("city of Nasir is", students["Nasir"])
+
+	//Task-4
+	delete(students, "Nasir")
+	fmt.Println("deleted the user Nasir From the Map: ", students)
+
+	//Task-5
+	_, yes := students["Nasir"]
+	fmt.Println((yes))
 }
