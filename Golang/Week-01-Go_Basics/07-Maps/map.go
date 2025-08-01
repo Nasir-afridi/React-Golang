@@ -17,4 +17,7 @@ func main() {
 	//Task-2
 	students["sadeeq"] = "Sindh"
 	fmt.Println(students)
+
+	//Task-3
+	fmt.Println("city of Nasir is", students["Nasir"])
 }
