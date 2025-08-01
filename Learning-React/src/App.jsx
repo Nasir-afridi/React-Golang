@@ -19,6 +19,7 @@ import SummaryWeekOne from "./Week-01-React-Basics/07-SummaryWeekOne"
 
 
 import CounterUsingUseEffect from "./01-CounterUsingUseEffect"
+import TitleChangeUsingUseEffect from "./01-TitleChangeUsingUseEffect"
 
 function App() {
 
@@ -68,6 +69,7 @@ function App() {
       */}
 
       <CounterUsingUseEffect />
+      <TitleChangeUsingUseEffect />
     </>
   )
 }
