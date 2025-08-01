@@ -2,17 +2,22 @@ package main
 
 import "fmt"
 
-type students struct {
-	Name string
-	age  int
-	city string
+// Task- 1
+type Book struct {
+	title  string
+	author string
+	price  int
 }
 
 func main() {
-	Data := students{
-		Name: "M.Nasir",
-		age:  90,
-		city: "wah cantt",
+	// Task-2
+	books := []Book{
+		{title: "isl", author: "rehman", price: 220},
+		{title: "eng", author: "john", price: 2220},
 	}
-	fmt.Println(Data)
+
+	//Task-3
+	for _, s := range books {
+		fmt.Println(s)
+	}
 }
