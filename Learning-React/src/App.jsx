@@ -17,6 +17,9 @@ import ValidationUsingErrors from "./Week-01-React-Basics/06-ValidationUsingErro
 import LiveValidation from "./Week-01-React-Basics/06-LiveValidation"
 import SummaryWeekOne from "./Week-01-React-Basics/07-SummaryWeekOne"
 
+
+import CounterUsingUseEffect from "./01-CounterUsingUseEffect"
+
 function App() {
 
   return (
@@ -63,6 +66,8 @@ function App() {
       day-7
       <SummaryWeekOne />
       */}
+
+      <CounterUsingUseEffect />
     </>
   )
 }
