@@ -37,8 +37,6 @@ function App() {
       <Card title = "pc" description = "this is a pc of windows" buttonLabel = "click here"  onOurClick={() => alert("Buying pc")} /> 
      
 
-
-
       day-3
       <Counter />
       <Hide />
@@ -66,10 +64,12 @@ function App() {
 
       day-7
       <SummaryWeekOne />
-      */}
+      
 
+      Week-2 (day-1)
       <CounterUsingUseEffect />
       <TitleChangeUsingUseEffect />
+      */}
     </>
   )
 }
