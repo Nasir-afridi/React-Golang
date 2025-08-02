@@ -21,6 +21,7 @@ import SummaryWeekOne from "./Week-01-React-Basics/07-SummaryWeekOne"
 import CounterUsingUseEffect from "./01-CounterUsingUseEffect"
 import TitleChangeUsingUseEffect from "./01-TitleChangeUsingUseEffect"
 import UseEffectMastery from "./02-UseEffectMastery"
+import MouseTracking from "./02-MouseTracking"
 
 function App() {
 
@@ -72,7 +73,8 @@ function App() {
       <TitleChangeUsingUseEffect />
       */}
 
-      <UseEffectMastery></UseEffectMastery>
+      <UseEffectMastery />
+      <MouseTracking />
     </>
   )
 }
