@@ -22,6 +22,7 @@ import CounterUsingUseEffect from "./01-CounterUsingUseEffect"
 import TitleChangeUsingUseEffect from "./01-TitleChangeUsingUseEffect"
 import UseEffectMastery from "./02-UseEffectMastery"
 import MouseTracking from "./02-MouseTracking"
+import InputLogging from "./02-InputLogging"
 
 function App() {
 
@@ -71,10 +72,13 @@ function App() {
       Week-2 (day-1)
       <CounterUsingUseEffect />
       <TitleChangeUsingUseEffect />
-      */}
-
+      
+      day-2
       <UseEffectMastery />
       <MouseTracking />
+      */}
+
+      <InputLogging /> 
     </>
   )
 }
