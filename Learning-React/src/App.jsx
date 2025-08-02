@@ -77,10 +77,9 @@ function App() {
       day-2
       <UseEffectMastery />
       <MouseTracking />
-      */}
-
       <InputLogging /> 
-      <MousePositionTrack />
+      <MousePositionTrack /> 
+      */}
     </>
   )
 }
