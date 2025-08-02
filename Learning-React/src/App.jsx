@@ -23,6 +23,7 @@ import TitleChangeUsingUseEffect from "./01-TitleChangeUsingUseEffect"
 import UseEffectMastery from "./02-UseEffectMastery"
 import MouseTracking from "./02-MouseTracking"
 import InputLogging from "./02-InputLogging"
+import MousePositionTrack from "./02-MousePositionTrack"
 
 function App() {
 
@@ -79,6 +80,7 @@ function App() {
       */}
 
       <InputLogging /> 
+      <MousePositionTrack />
     </>
   )
 }
