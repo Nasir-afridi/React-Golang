@@ -80,9 +80,10 @@ function App() {
       <MouseTracking />
       <InputLogging /> 
       <MousePositionTrack /> 
-      */}
-
+      
+      day-3
       <OnClickEvent />
+      */}
     </>
   )
 }
