@@ -24,6 +24,7 @@ import UseEffectMastery from "./02-UseEffectMastery"
 import MouseTracking from "./02-MouseTracking"
 import InputLogging from "./02-InputLogging"
 import MousePositionTrack from "./02-MousePositionTrack"
+import OnClickEvent from "./03-OnClickEvent"
 
 function App() {
 
@@ -80,6 +81,8 @@ function App() {
       <InputLogging /> 
       <MousePositionTrack /> 
       */}
+
+      <OnClickEvent />
     </>
   )
 }
