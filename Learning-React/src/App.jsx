@@ -25,6 +25,7 @@ import MouseTracking from "./02-MouseTracking"
 import InputLogging from "./02-InputLogging"
 import MousePositionTrack from "./02-MousePositionTrack"
 import OnClickEvent from "./03-OnClickEvent"
+import ListReRendering from "./04-ListReRendering"
 
 function App() {
 
@@ -84,6 +85,7 @@ function App() {
       day-3
       <OnClickEvent />
       */}
+      <ListReRendering></ListReRendering>
     </>
   )
 }
