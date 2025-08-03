@@ -76,16 +76,21 @@ function App() {
       <CounterUsingUseEffect />
       <TitleChangeUsingUseEffect />
       
+
       day-2
       <UseEffectMastery />
       <MouseTracking />
       <InputLogging /> 
       <MousePositionTrack /> 
       
+
       day-3
       <OnClickEvent />
+      
+      
+      day-4
+      <ListReRendering />
       */}
-      <ListReRendering></ListReRendering>
     </>
   )
 }
