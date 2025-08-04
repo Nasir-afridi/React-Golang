@@ -18,16 +18,16 @@ import LiveValidation from "./Week-01-React-Basics/06-LiveValidation"
 import SummaryWeekOne from "./Week-01-React-Basics/07-SummaryWeekOne"
 
 
-import CounterUsingUseEffect from "./01-CounterUsingUseEffect"
-import TitleChangeUsingUseEffect from "./01-TitleChangeUsingUseEffect"
-import UseEffectMastery from "./02-UseEffectMastery"
-import MouseTracking from "./02-MouseTracking"
-import InputLogging from "./02-InputLogging"
-import MousePositionTrack from "./02-MousePositionTrack"
-import OnClickEvent from "./03-OnClickEvent"
-import ListReRendering from "./04-ListReRendering"
-import Dynamic from "./05-Dynamic rendering"
-import OurConditionalRendering from "./06-OurConditionalRendering"
+import CounterUsingUseEffect from "./Week-02-useEffect, Events, Lists/01-CounterUsingUseEffect"
+import TitleChangeUsingUseEffect from "./Week-02-useEffect, Events, Lists/01-TitleChangeUsingUseEffect"
+import UseEffectMastery from "./Week-02-useEffect, Events, Lists/02-UseEffectMastery"
+import MouseTracking from "./Week-02-useEffect, Events, Lists/02-MouseTracking"
+import InputLogging from "./Week-02-useEffect, Events, Lists/02-InputLogging"
+import MousePositionTrack from "./Week-02-useEffect, Events, Lists/02-MousePositionTrack"
+import OnClickEvent from "./Week-02-useEffect, Events, Lists/03-OnClickEvent"
+import ListReRendering from "./Week-02-useEffect, Events, Lists/04-ListReRendering"
+import Dynamic from "./Week-02-useEffect, Events, Lists/05-Dynamic rendering"
+import OurConditionalRendering from "./Week-02-useEffect, Events, Lists/06-OurConditionalRendering"
 
 function App() {
 
