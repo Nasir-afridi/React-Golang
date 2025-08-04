@@ -26,6 +26,7 @@ import InputLogging from "./02-InputLogging"
 import MousePositionTrack from "./02-MousePositionTrack"
 import OnClickEvent from "./03-OnClickEvent"
 import ListReRendering from "./04-ListReRendering"
+import Dynamic from "./05-Dynamic rendering"
 
 function App() {
 
@@ -91,6 +92,9 @@ function App() {
       day-4
       <ListReRendering />
       */}
+
+
+      <Dynamic />
     </>
   )
 }
