@@ -27,6 +27,7 @@ import MousePositionTrack from "./02-MousePositionTrack"
 import OnClickEvent from "./03-OnClickEvent"
 import ListReRendering from "./04-ListReRendering"
 import Dynamic from "./05-Dynamic rendering"
+import OurConditionalRendering from "./06-OurConditionalRendering"
 
 function App() {
 
@@ -91,10 +92,13 @@ function App() {
       
       day-4
       <ListReRendering />
+
+
+      day-5
+       <Dynamic />
       */}
-
-
-      <Dynamic />
+     
+      <OurConditionalRendering/>
     </>
   )
 }
