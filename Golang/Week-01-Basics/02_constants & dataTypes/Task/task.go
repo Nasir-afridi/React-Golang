@@ -10,4 +10,10 @@ func main() {
 	// 2.
 	const GRAVITY = 6.14
 	fmt.Println(GRAVITY)
+
+	// 3.
+	var isLogin bool
+	fmt.Println(isLogin)
+	isLogin = true
+	fmt.Println(isLogin)
 }
