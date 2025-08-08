@@ -20,4 +20,18 @@ func main() {
 	} else {
 		fmt.Println("odd")
 	}
+
+	// 3.
+	var x, y, z int = 1, 4, 6
+	var largest int
+	if x > y && x > z {
+		largest = x
+	} else if y > x && y > z {
+		largest = y
+	} else {
+		largest = z
+	}
+
+	fmt.Println("Largest number is:", largest)
+
 }
