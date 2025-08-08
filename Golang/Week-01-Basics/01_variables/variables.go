@@ -10,4 +10,7 @@ func main() {
 	name = "ali"
 	fmt.Println(name)
 
+	// type variable declaration.
+	var country string = "pakistan"
+	fmt.Println(country)
 }
