@@ -9,7 +9,7 @@ func main() {
 	}
 
 	// 2.
-	for a := 2; a >= 10; a += 2 {
+	for a := 2; a <= 10; a += 2 {
 		fmt.Println(a)
 	}
 
