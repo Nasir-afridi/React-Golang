@@ -30,4 +30,10 @@ func main() {
 	num += 3 // num = num + 3
 	fmt.Println("num after += 3:", num)
 
+	// Unary
+	count := 0
+	count++
+	fmt.Println("count after increment:", count)
+	count--
+	fmt.Println("count after decrement:", count)
 }
