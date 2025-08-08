@@ -15,12 +15,19 @@ func main() {
 
 	// 2.
 	variable := 0
-
 	if variable > 0 {
 		fmt.Println("positive")
 	} else if variable < 0 {
 		fmt.Println("Negative")
 	} else {
 		fmt.Println("Zero")
+	}
+
+	// 3.
+	user := 10
+	if user >= 18 {
+		fmt.Println("adult")
+	} else {
+		fmt.Println("minor")
 	}
 }
