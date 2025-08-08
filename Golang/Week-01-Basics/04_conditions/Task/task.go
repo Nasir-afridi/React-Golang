@@ -5,7 +5,7 @@ import "fmt"
 func main() {
 	// 1.
 	temperature := 30
-	if temperature == 30 {
+	if temperature >= 30 {
 		fmt.Println("to hot")
 	} else if temperature == 15 {
 		fmt.Println("to cold")
@@ -45,8 +45,8 @@ func main() {
 	case "*":
 		result = float64(e * f)
 	case "/":
-		if e&f != 0 {
-			result = float64(e / f)
+		if f != 0 {
+			result = float64(e) / float64(f)
 		} else {
 			fmt.Println("Error: Division by zero")
 			return
