@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"math"
+)
 
 func main() {
 	// 1.
@@ -16,4 +19,9 @@ func main() {
 	fmt.Println(isLogin)
 	isLogin = true
 	fmt.Println(isLogin)
+
+	// 4.
+	var radius float64 = 3.4543
+	area := math.Pi * math.Pow(radius, 2)
+	fmt.Println(area)
 }
