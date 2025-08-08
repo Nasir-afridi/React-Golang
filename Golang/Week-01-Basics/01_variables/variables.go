@@ -17,4 +17,8 @@ func main() {
 	//in short method Go automatically guesses type = string
 	city := "islamabad"
 	fmt.Println(city)
+
+	// Multiple varibales in one line
+	var a, b, c, d, e, f int = 1, 3, 4, 5, 5, 6
+	fmt.Println(a, b, c, d, e, f)
 }
