@@ -12,4 +12,15 @@ func main() {
 	} else {
 		fmt.Println("Mindatory")
 	}
+
+	// 2.
+	variable := 0
+
+	if variable > 0 {
+		fmt.Println("positive")
+	} else if variable < 0 {
+		fmt.Println("Negative")
+	} else {
+		fmt.Println("Zero")
+	}
 }
