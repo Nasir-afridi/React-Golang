@@ -18,4 +18,11 @@ func main() {
 	fmt.Println("a > b:", a > b)
 	fmt.Println("a < b:", a < b)
 
+	// Logical
+	x := true
+	y := false
+	fmt.Println("x && y:", x && y)
+	fmt.Println("x || y:", x || y)
+	fmt.Println("!x:", !x)
+
 }
