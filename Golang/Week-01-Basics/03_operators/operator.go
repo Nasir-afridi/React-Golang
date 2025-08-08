@@ -25,4 +25,9 @@ func main() {
 	fmt.Println("x || y:", x || y)
 	fmt.Println("!x:", !x)
 
+	// Assignment
+	num := 5
+	num += 3 // num = num + 3
+	fmt.Println("num after += 3:", num)
+
 }
