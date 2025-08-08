@@ -12,4 +12,10 @@ func main() {
 	fmt.Println("Division:", a/b)
 	fmt.Println("Modulus:", a%b)
 
+	// Relational
+	fmt.Println("a == b:", a == b)
+	fmt.Println("a != b:", a != b)
+	fmt.Println("a > b:", a > b)
+	fmt.Println("a < b:", a < b)
+
 }
