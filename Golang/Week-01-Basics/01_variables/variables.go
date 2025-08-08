@@ -26,4 +26,10 @@ func main() {
 	const pi float32 = 3.14
 	fmt.Println(pi)
 
+	// group multiple constants together.
+	const (
+		port   = 2233
+		adress = "Pakistan"
+	)
+	fmt.Println(port, adress)
 }
