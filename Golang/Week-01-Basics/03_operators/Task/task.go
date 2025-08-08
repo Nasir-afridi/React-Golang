@@ -34,4 +34,13 @@ func main() {
 
 	fmt.Println("Largest number is:", largest)
 
+	// 4.
+	username := "admin"
+	password := "1234"
+	if username == "admin" && password == "1234" {
+		fmt.Println("Login successfully")
+	} else {
+		fmt.Println("Incorrect")
+	}
+
 }
