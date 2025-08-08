@@ -10,7 +10,11 @@ func main() {
 	name = "ali"
 	fmt.Println(name)
 
-	// type variable declaration.
+	// type variable initalization.
 	var country string = "pakistan"
 	fmt.Println(country)
+
+	//in short method Go automatically guesses type = string
+	city := "islamabad"
+	fmt.Println(city)
 }
