@@ -9,4 +9,16 @@ func main() {
 		fmt.Println(i)
 	}
 
+	// Types of for loop
+
+	i := 0 // while type loop
+	for i < 5 {
+		fmt.Println(i)
+		i++
+	}
+
+	for { // infinite loop
+		fmt.Println("infinite loop")
+	}
+
 }
