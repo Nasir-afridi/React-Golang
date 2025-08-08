@@ -30,4 +30,29 @@ func main() {
 	} else {
 		fmt.Println("minor")
 	}
+
+	// 4.
+	e := 0
+	f := 20
+	operator := "/"
+	var result float64
+
+	switch operator {
+	case "+":
+		result = float64(e + f)
+	case "-":
+		result = float64(e - f)
+	case "*":
+		result = float64(e * f)
+	case "/":
+		if e&f != 0 {
+			result = float64(e / f)
+		} else {
+			fmt.Println("Error: Division by zero")
+			return
+		}
+	}
+
+	fmt.Println("result", result)
+
 }
